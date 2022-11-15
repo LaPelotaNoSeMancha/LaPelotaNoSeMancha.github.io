@@ -1,0 +1,45 @@
+
+.card {
+  background:linear-gradient(180deg,white,grey);
+  color: black;
+  padding: 1rem;
+  height: 4rem;
+  border: solid skyblue;
+  border-radius: 15px;
+ text-align: center;
+ font-size: 22px;
+ font-weight: bold;
+ align-items: center;
+}
+.cards {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+.card:hover {background-color: orange;}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+
+video{
+ position: center;
+ width: 300;
+  height: 200;
+
+}
+.caja{
+  background: linear-gradient(200deg,yellow,violet);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border: solid grey;
+  opacity: 0.85;
+}

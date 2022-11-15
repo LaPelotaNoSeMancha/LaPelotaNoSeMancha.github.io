@@ -1,0 +1,51 @@
+.rankedLore{
+	padding: 5px;
+	margin-top: 30px;
+}
+.rankedLore img{
+	width: 45%;
+	display:block;
+margin:auto;
+}
+.rankedDivisions{
+	position: center;
+	padding: 20px;
+	margin-top: 0px;
+
+}
+.rankedDivisions img{
+	width: 60%;
+	display:block;
+margin:auto;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+@media (max-width: 1200px){
+	.rankedDivisions img{
+	width: 75%;
+}
+.rankedLore img{
+	width: 85%;
+	}
+}
+
+@media (max-width: 858px){
+	.rankedDivisions img{
+	width: 100%;
+}
+.rankedLore img{
+	width: 100%;
+	}
+}

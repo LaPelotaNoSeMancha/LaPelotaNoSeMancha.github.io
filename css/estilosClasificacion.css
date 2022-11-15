@@ -1,0 +1,175 @@
+h1{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+table {
+ margin: auto;
+  border-collapse: collapse;
+  overflow-x: auto;
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+  margin-top: 32px;
+  border-radius: 8px;
+}
+
+td, th {
+  
+  padding: 1.2rem;
+
+}
+
+th {
+  text-align: center;
+  background-color: #960f16;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: rgb(50, 50, 100) solid 2px;
+  border-top: none;
+}
+
+td {
+  white-space: nowrap;
+  border-bottom: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+td:first-of-type, th:first-of-type {
+  border-left: none;
+}
+
+td:last-of-type, th:last-of-type {
+  border-right: none;
+}
+
+tbody {
+  background: rgb(61, 68, 73);
+}
+
+
+tr:nth-child(even){
+  background-color: #2a3338;
+}
+
+.galeria{
+  display: flex;
+  overflow-y: auto;
+
+
+}
+.card{
+  margin-right: 10px;
+  position: relative;
+ 
+}
+.cuerpo-card{
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #fff;
+}
+.card img{
+  width: 420px;
+  height: 600px;
+
+}
+.cuerpo-card p{
+  text-align: center;
+
+}
+.cuerpo-card h4{
+  text-align: center;
+}
+.myDiv{
+  display:none;
+    padding:10px;
+    margin-top:20px;
+}  
+#showOne{
+    border:1px solid red;
+}
+#showTwo{
+    border:1px solid green;
+}
+#showThree{
+    border:1px solid blue;
+}
+#showFour{
+    border:1px solid blue;
+}
+.seleccion{  
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+}
+.seleccion select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+    display: inline-block;
+  width: 100%;
+  cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0; 
+    border: 0;
+  border-radius: 0;
+  background: #f0f0f0;
+  color: #7b7b7b;
+  font-size: 1em;
+  color: black;
+  font-family: 
+  'Quicksand', sans-serif;
+  border:2px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    text-align: center;
+}
+.seleccion select:hover{
+background: #B1E8CD;
+}
+.table-sortable th {
+  cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after {
+  content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+  content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+  margin-left: 5px;
+}
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+  background: orange;
+}
+
+
+@media (max-width: 1200px){
+  td, th {
+  
+  padding: 0.7rem;
+}
+}
+@media (max-width: 858px){
+  td, th {
+  
+  padding: 0.3rem;
+}
+}
