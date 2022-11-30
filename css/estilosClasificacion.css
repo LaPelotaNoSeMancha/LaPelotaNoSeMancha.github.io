@@ -57,6 +57,9 @@ tbody {
 tr:nth-child(even){
   background-color: #2a3338;
 }
+.jornada img{
+width: 36%;
+}
 
 .galeria{
   display: flex;
@@ -169,10 +172,16 @@ background: #B1E8CD;
   
   padding: 0.7rem;
 }
+.jornada img{
+  width: 70%;
+}
 }
 @media (max-width: 858px){
   td, th {
   
   padding: 0.3rem;
+}
+.jornada img{
+  width: 100%;
 }
 }
