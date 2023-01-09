@@ -13,6 +13,12 @@ margin:auto;
 	margin-top: 0px;
 
 }
+.destacados{
+	position: center;
+	margin-top: 20px;
+
+
+}
 .rankedDivisions img{
 	width: 60%;
 	display:block;
@@ -53,6 +59,9 @@ margin:auto;
 .rankedLore img{
 	width: 85%;
 	}
+		.destacados img{
+		width: 75%;
+	}
 }
 
 @media (max-width: 858px){
@@ -61,5 +70,8 @@ margin:auto;
 }
 .rankedLore img{
 	width: 100%;
+	}
+	.destacados img{
+		width: 100%;
 	}
 }
