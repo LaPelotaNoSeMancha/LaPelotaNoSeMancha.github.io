@@ -16,13 +16,16 @@ margin:auto;
 .destacados{
 	position: center;
 	margin-top: 20px;
-
+	
 
 }
 .rankedDivisions img{
 	width: 60%;
 	display:block;
 margin:auto;
+}
+.destacados img{
+	width: 80%;
 }
 
 .button {
